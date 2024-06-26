@@ -1,2 +1,2 @@
 # toti
-teste do curso toti sobre github
+inciando a aprendizagem de HTML pelo programa TOTI
