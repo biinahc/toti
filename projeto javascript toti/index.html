@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="./img/profile.jpg" alt="Perfil" class="profile-image">
+            <h1>Meu Portfólio</h1>
+        </div>
+        <a href="https://www.linkedin.com/in/sabrina-caldas-a4b6421b7/" target="_blank" class="linkedin-link">LinkedIn</a>
+    </header>
+    
+    <section id="contact">
+        <h2>Contato</h2>
+        <form id="contactForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="errorMessages"></div>
+    </section>
+    
+    <section id="github-repos">
+        <h2>Meus Repositórios GitHub</h2>
+        <div id="reposList"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
